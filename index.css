@@ -1,0 +1,235 @@
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+/* =================================================  */
+.home_main {
+    /* border: 2px solid green; */
+    border-radius: 0px;
+    height: fit-content;
+    margin-top: -10px;
+
+    background: url('images/Home/top2.png');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.slider_inner_div {
+    /* border: 2px solid white; */
+    height: fit-content;
+    width: 100%;
+}
+
+.slider_inner_div_text {
+    font-family: 'Teko', sans-serif;
+    color: white;
+    font-size: 80px;
+}
+
+.slider_inner_div_text:hover {
+    font-family: 'Teko', sans-serif;
+    color: greenyellow;
+    font-size: 80px;
+    transition: all 1s;
+}
+
+.order-btn {
+    border: 2px solid white;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    padding: 5px 20px;
+    width: fit-content;
+}
+
+.order-btn:hover {
+    border: 2px solid darkgreen;
+    border-radius: 20px;
+    color: white;
+    background-color: darkgreen;
+    padding: 5px 20px;
+    width: fit-content;
+    transition: all 1s;
+
+}
+
+/* ======================================  */
+.home_main_2 {
+    /* border: 2px solid blue; */
+    border-radius: 0px;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.home_main_2_inner_div {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    height: fit-content;
+    background-color: green;
+    padding: 5px;
+}
+
+.box_name {
+    /* border: 2px solid blue; */
+    height: 40px;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.box_icon {
+    /* border: 2px solid cyan; */
+    height: 200px;
+    text-align: center;
+}
+
+.icon_css {
+    font-size: 170px;
+    color: white;
+    text-shadow: 5px 5px 5px greenyellow;
+}
+.icon_css:hover {
+    font-size: 170px;
+    color: white;
+    text-shadow: 5px 5px 5px yellow;
+}
+
+.lm-btn-div {
+    /* border: 2px solid blue; */
+    height: 60px;
+    text-align: center;
+}
+
+.lm-btn {
+    border: 2px solid greenyellow;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 20px;
+    background-color: greenyellow;
+}
+
+.lm-btn:hover {
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: black;
+    font-size: 20px;
+    background-color: white;
+    transition: all 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {
+    .slider_inner_div_text {
+        font-family: 'Teko', sans-serif;
+        color: white;
+        font-size: 40px;
+    }
+
+    .slider_inner_div_text:hover {
+        font-family: 'Teko', sans-serif;
+        color: greenyellow;
+        font-size: 40px;
+        transition: all 1s;
+    }
+
+}
+
+@media only screen and (max-width: 535px) {
+
+    .slider_inner_div_text {
+        font-family: 'Teko', sans-serif;
+        color: white;
+        font-size: 40px;
+    }
+
+    .slider_inner_div_text:hover {
+        font-family: 'Teko', sans-serif;
+        color: greenyellow;
+        font-size: 40px;
+        transition: all 1s;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+
+    .slider_inner_div_text {
+        font-family: 'Teko', sans-serif;
+        color: white;
+        font-size: 40px;
+    }
+
+    .slider_inner_div_text:hover {
+        font-family: 'Teko', sans-serif;
+        color: greenyellow;
+        font-size: 40px;
+        transition: all 1s;
+    }
+
+}
+
+@media only screen and (max-width: 412px) {
+
+    .slider_inner_div_text {
+        font-family: 'Teko', sans-serif;
+        color: white;
+        font-size: 40px;
+    }
+
+    .slider_inner_div_text:hover {
+        font-family: 'Teko', sans-serif;
+        color: greenyellow;
+        font-size: 40px;
+        transition: all 1s;
+    }
+
+
+}

@@ -1,0 +1,28 @@
+.education_main{
+    /* border: 2px solid blue; */
+    height: 500px;
+}
+
+.skills_title{
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    background-color: rgba(0, 100, 0, 0.5);
+    font-family: 'Teko', sans-serif;
+    border-radius: 20px ;
+
+}
+.institute_title{
+    text-align: left;
+    color: black;
+    font-size: 40px;
+    background-color: greenyellow;
+    font-family: 'Teko', sans-serif;
+    border-radius: 20px ;
+
+}
+
+.card{
+
+    border: 2px solid red;
+}

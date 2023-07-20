@@ -1,0 +1,282 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('images/bg.jpg');
+    background-position: fixed;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* =================================================  */
+
+
+@font-face {
+    font-family: Bulletto;
+    src: url(fonts/Bulletto.ttf);
+}
+
+@font-face {
+    font-family: Regista;
+    src: url(fonts/Regista.ttf);
+}
+
+@font-face {
+    font-family: Regista_i;
+    src: url(fonts/Regista_i.ttf);
+}
+
+@font-face {
+    font-family: Rockybilly;
+    src: url(fonts/Rockybilly.ttf);
+}
+
+@font-face {
+    font-family: Alvi;
+    src: url(fonts/Alvi.ttf);
+}
+
+
+
+
+
+/* ========================   NAV BAR Start   =========================  */
+
+
+.nav_out_main {
+    /* border: 2px solid red; */
+    height: fit-content;
+
+}
+
+/* .nav_left_main {
+    border: 2px solid green;
+    height: 140px;
+    text-align: right;
+
+} */
+
+.nav_right_main {
+    /* border: 2px solid blue; */
+    height: fit-content;
+}
+
+/* ----------------------------- */
+.navbar-toggler-icon {
+    border: 1px solid brown;
+    border-radius: 4px;
+    color: brown;
+    background-color: white;
+}
+
+.logo {
+    height: 70px;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-top: -5px;
+    /* transition: all 3s; */
+}
+
+
+/* main nav bar out div  */
+.navbar {
+    /* border: 2px solid magenta; */
+    border-radius: 30px;
+    height: fit-content;
+    margin-top: 0px;
+    /* background-color: red; */
+}
+
+.nav_bar_main_container {
+
+    /* border: 2px solid white; */
+    /* border-radius: 5px; */
+    color: white;
+    background-color: darkgreen;
+}
+
+.nav_bar_logo_bar {
+    /* margin-top: 15px; */
+    margin-left: 2px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.nav_bar_title_bar {
+    margin-top: 15px;
+    margin-left: -10px;
+    /* border: 2px solid red; */
+    height: fit-content;
+}
+
+.list_main {
+    margin-top: 12px;
+    margin-left: 15x;
+    /* border: 2px solid green; */
+    height: fit-content;
+}
+
+.nav-item {
+    height: fit-content;
+    /* border: 2px solid goldenrod; */
+    border-radius: 3px;
+}
+
+/* -------------------------------------  */
+.title {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px greenyellow;
+    font-family: 'Lugrasimo', cursive;
+
+}
+
+.title:hover {
+    color: white;
+    font-size: 20px;
+    text-shadow: 3px 3px 5px yellow;
+    font-family: 'Lugrasimo', cursive;
+
+}
+
+.home-btn {
+
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    color: white;
+    /* transition: all 2s; */
+}
+
+.home-btn:hover {
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width: 100px;
+    text-align: center;
+    color: darkgreen;
+    background-color: white;
+    transition: all 1s;
+
+}
+
+/* ========================   NAV BAR END   =========================  */
+
+
+
+/* Footer  */
+
+.footer_main{
+    border: 2px solid white;
+    border-left: none ;
+    border-right: none ;
+    
+    background-color: rgba(0,0,0, 0.7);
+    color: white;
+    height: fit-content;
+}                
+.column_1{
+    border-left: 2px solid white;
+    height: 400px;
+}            
+.footer_text{
+    color: white;
+    font-size: 20px;
+}
+.footer_text:hover{
+    color: greenyellow;
+    font-size: 22px;
+    transition: all 0.7s;
+
+}    
+/* ------------------------------------------------  */
+.footer_bottom{
+    /* border: 2px solid blue; */
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+                 
+/* =================================================  */
+@media only screen and (max-width: 1920px) {
+       
+}
+@media only screen and (max-width: 1200px) {
+       
+}
+@media only screen and (max-width: 992px) {
+       
+}
+@media only screen and (max-width: 768px) {
+       
+}
+@media only screen and (max-width: 535px) {
+       
+}
+@media only screen and (max-width: 480px) {
+       
+}
+@media only screen and (max-width: 412px) {
+       
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =================================================  */
+@media only screen and (max-width: 1920px) {}
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 992px) {}
+
+@media only screen and (max-width: 768px) {}
+
+@media only screen and (max-width: 535px) {}
+
+@media only screen and (max-width: 480px) {}
+
+@media only screen and (max-width: 412px) {
+    .title {
+        color: white;
+        font-size: 15px;
+        text-shadow: 3px 3px 5px greenyellow;
+        font-family: 'Lugrasimo', cursive;
+
+    }
+
+    .title:hover {
+        color: white;
+        font-size: 15px;
+        text-shadow: 3px 3px 5px yellow;
+        font-family: 'Lugrasimo', cursive;
+
+    }
+}
